@@ -1,0 +1,123 @@
+<dataroot xmlns:od="urn:schemas-microsoft-com:officedata" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <place>
+        <name>Blarney Castle</name>
+        <address>Monacnapa, Blarney, Co. Cork</address>
+        <description>Blarney Castle is a medieval stronghold in Blarney, near Cork, Ireland, and the River Martin. Though earlier fortifications were built on the same spot, the current keep was built by the MacCarthy of Muskerry dynasty, a cadet branch of the Kings of Desmond, and dates from 1446.</description>
+        <distance>8.3 km</distance>
+        <image1>blarney_castle_1.jpg</image1>
+        <image2>blarney_castle_2.jpg</image2>
+        <image3>blarney_castle_3.jpg</image3>
+        <background>blarney_castle_background.jpg</background>
+        <url>https://blarneycastle.ie/</url>
+    </place>
+
+    <place>
+        <name>Baltimore</name>
+        <address>Ballylinchy, Baltimore, Co. Cork</address>
+        <description>The historic village of Baltimore and enchanting islands of Cape Clear, Sherkin and Heir lie near the very southern tip of Ireland, where the Wild Atlantic Way meets Carbery's Hundred Isles and the beautiful coast of West Cork. Once the haunt of pirates, today this is a centre for all kinds of waterborne activity. On land too there is plenty to enjoy including a varied calendar of festivals and events, not to mention a wide choice of accommodation and some great places to eat and drink.</description>
+        <distance>95.6 km</distance>
+        <image1>baltimore_1.jpg</image1>
+        <image2>baltimore_2.jpg</image2>
+        <image3>baltimore_3.jpg</image3>
+        <background>baltimore_background.jpg</background>
+        <url>http://www.baltimore.ie/</url>
+    </place>
+
+    <place>
+        <name>Garnish Island</name>
+        <address>Glengarriff, Bantry, Co. Cork</address>
+        <description>Garnish Island, is an island in Glengarriff harbour, part of Bantry Bay in southwest Ireland, which is a popular tourist attraction. The Office of Public Works, which maintains the gardens on the island, uses the name Ilnacullin to differentiate it from Garinish Island in County Kerry.</description>
+        <distance>95.6 km</distance>
+        <image1>garnish_island_1.jpg</image1>
+        <image2>garnish_island_2.jpg</image2>
+        <image3>garnish_island_3.jpg</image3>
+        <background>garnish_island_background.jpg</background>
+        <url>http://www.garnishisland.com</url>
+    </place>
+
+    <place>
+        <name>Crawford Art Gallery</name>
+        <address>Emmet Place, Co. Cork</address>
+        <description>The Crawford Art Gallery is a public art gallery and museum in the city of Cork, Ireland. Known informally as the Crawford, it was designated a 'National Cultural Institution' in 2006. It is "dedicated to the visual arts, both historic and contemporary", and welcomes over 200,000 visitors a year.</description>
+        <distance>2.4 km</distance>
+        <image1>crawford_art_gallery_1.jpg</image1>
+        <image2>crawford_art_gallery_2.jpg</image2>
+        <image3>crawford_art_gallery_3.jpg</image3>
+        <background>crawford_art_gallery_background.jpg</background>
+        <url>http://www.crawfordartgallery.ie/</url>
+    </place>
+
+    <place>
+        <name>Cork City Gaol</name>
+        <address>Convent Ave, Sunday's Well, Co. Cork</address>
+        <description>Cork is a city with a very rich historical and archaeological heritage much of it still in evidence today. Part of this heritage, Cork City Gaol, is a magnificent castle-like building which once housed 19th century prisoners.</description>
+        <distance>1.4 km</distance>
+        <image1>cork_city_gaol_1.jpg</image1>
+        <image2>cork_city_gaol_2.jpg</image2>
+        <image3>cork_city_gaol_3.jpg</image3>
+        <background>cork_city_gaol_background.jpg</background>
+        <url>https://corkcitygaol.com/</url>
+    </place>
+
+    <place>
+        <name>Elizabeth Fort</name>
+        <address>Barrack St, The Lough, Cork</address>
+        <description>Elizabeth Fort is situated on the south side of the city and is said to be one of the finest examples of a 17th century star-shaped fort. The fort itself has gone through a number of phases and rebuilds. Originally built in 1601 during the reign of Elizabeth I, it was replaced in 1624 by a stronger fort which had the same basic outline as that which survives today.</description>
+        <distance>1.7 km</distance>
+        <image1>elizabeth_fort_1.jpg</image1>
+        <image2>elizabeth_fort_2.jpg</image2>
+        <image3>elizabeth_fort_3.jpg</image3>
+        <background>elizabeth_fort_background.jpg</background>
+        <url>http://www.elizabethfort.ie/</url>
+    </place>
+
+    <place>
+        <name>Mizen Head</name>
+        <address>The Harbour Road, Goleen, West Cork</address>
+        <description>At the end of the Mizen Peninsula, the cliffs of Mizen Head rise high above the Atlantic Ocean, where the currents meet from the west and south coasts and waves from the mid-Atlantic crash into the land.</description>
+        <distance>123 km</distance>
+        <image1>mizen_head_1.jpg</image1>
+        <image2>mizen_head_2.jpg</image2>
+        <image3>mizen_head_3.jpg</image3>
+        <background>mizen_head_background.jpg</background>
+        <url>http://www.mizenhead.ie/</url>
+    </place>
+
+    <place>
+        <name>Gougane Barra</name>
+        <address>Ballingeary, Macroom, West Cork</address>
+        <description>Gougane Barra is located in a beautiful part of the South West of Ireland, ideal if you are looking for some of Ireland's scenic countryside to visit.</description>
+        <distance>68 km</distance>
+        <image1>gougane_barra_1.jpg</image1>
+        <image2>gougane_barra_2.jpg</image2>
+        <image3>gougane_barra_3.jpg</image3>
+        <background>gougane_barra_background.jpg</background>
+        <url>http://www.gouganebarra.com/</url>
+    </place>
+
+    <place>
+        <name>Kinsale</name>
+        <address>Emmet Place, Kinsale, Co Cork</address>
+        <description>Originally a medieval fishing port, historic Kinsale is one of the most picturesque, popular and historic towns on the south west coast of Ireland.</description>
+        <distance>27.4 km</distance>
+        <image1>kinsale_1.jpg</image1>
+        <image2>kinsale_2.jpg</image2>
+        <image3>kinsale_3.jpg</image3>
+        <background>kinsale_background.jpg</background>
+        <url>https://www.kinsale.ie/</url>
+    </place>
+
+    <place>
+        <name>Bantry House</name>
+        <address>Bantry, Co Cork</address>
+        <description>Bantry House and Garden is a stately home situated on the Wild Atlantic Way overlooking Bantry Bay in the south west of Ireland. It houses an important private collection of furniture and objects of art. It has been home to the White family since 1739 and was open to the public in 1946. </description>
+        <distance>83.3 km</distance>
+        <image1>bantry_house_1.jpg</image1>
+        <image2>bantry_house_2.jpg</image2>
+        <image3>bantry_house_3.jpg</image3>
+        <background>bantry_house_background.jpg</background>
+        <url>http://www.bantryhouse.com/</url>
+    </place>
+
+
+</dataroot>

@@ -8,20 +8,144 @@
 
 /* Begin PBXBuildFile section */
 		30B258EC221C0B6700B40CD5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30B258EB221C0B6700B40CD5 /* AppDelegate.swift */; };
-		30B258EE221C0B6700B40CD5 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30B258ED221C0B6700B40CD5 /* ViewController.swift */; };
 		30B258F1221C0B6700B40CD5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 30B258EF221C0B6700B40CD5 /* Main.storyboard */; };
 		30B258F3221C0B6900B40CD5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 30B258F2221C0B6900B40CD5 /* Assets.xcassets */; };
 		30B258F6221C0B6900B40CD5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 30B258F4221C0B6900B40CD5 /* LaunchScreen.storyboard */; };
+		30B258FE221C0BC000B40CD5 /* places.xml in Resources */ = {isa = PBXBuildFile; fileRef = 30B258FD221C0BC000B40CD5 /* places.xml */; };
+		30D5F4BA221EAFED00B01155 /* PlacesTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30D5F4B9221EAFED00B01155 /* PlacesTableViewController.swift */; };
+		30D5F4BC221EB03100B01155 /* PlaceImagesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30D5F4BB221EB03100B01155 /* PlaceImagesViewController.swift */; };
+		30D5F4BE221EB04A00B01155 /* PlaceDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30D5F4BD221EB04A00B01155 /* PlaceDetailsViewController.swift */; };
+		30D5F4C0221EB06700B01155 /* WebViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30D5F4BF221EB06700B01155 /* WebViewController.swift */; };
+		30D5F4C2221EB41500B01155 /* Place.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30D5F4C1221EB41500B01155 /* Place.swift */; };
+		30D5F4C4221EB45100B01155 /* TouristPlaces.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30D5F4C3221EB45100B01155 /* TouristPlaces.swift */; };
+		30D5F4C6221EB66C00B01155 /* XMLPlacesParser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30D5F4C5221EB66C00B01155 /* XMLPlacesParser.swift */; };
+		5A19275322583C67006072BD /* AddEditViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A19275222583C66006072BD /* AddEditViewController.swift */; };
+		5A19275B225970E4006072BD /* PlaceTableViewCellDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A19275A225970E4006072BD /* PlaceTableViewCellDelegate.swift */; };
+		5A268DDE2235A1020088CCBE /* texture.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 5A268DDD2235A1020088CCBE /* texture.jpeg */; };
+		5A334EC7225A8734005DE3A0 /* edit_white.png in Resources */ = {isa = PBXBuildFile; fileRef = 5A334EC6225A8734005DE3A0 /* edit_white.png */; };
+		5A334ED9225A9EFE005DE3A0 /* trash_ic_edited.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 5A334ED8225A9EFE005DE3A0 /* trash_ic_edited.jpg */; };
+		5A334EE1225B47C7005DE3A0 /* place_holder.png in Resources */ = {isa = PBXBuildFile; fileRef = 5A334EE0225B47C6005DE3A0 /* place_holder.png */; };
+		5A334EE3225B48F5005DE3A0 /* background_placeholder.png in Resources */ = {isa = PBXBuildFile; fileRef = 5A334EE2225B48F5005DE3A0 /* background_placeholder.png */; };
+		5A334EE5225B54C6005DE3A0 /* SearchFooter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A334EE4225B54C6005DE3A0 /* SearchFooter.swift */; };
+		5A95E939222B162C0011ED4B /* baltimore_1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 5A95E938222B162C0011ED4B /* baltimore_1.jpg */; };
+		5A95E947222B164E0011ED4B /* baltimore_3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 5A95E93A222B164C0011ED4B /* baltimore_3.jpg */; };
+		5A95E948222B164E0011ED4B /* blarney_castle_1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 5A95E93B222B164C0011ED4B /* blarney_castle_1.jpg */; };
+		5A95E949222B164E0011ED4B /* blarney_castle_background.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 5A95E93C222B164D0011ED4B /* blarney_castle_background.jpg */; };
+		5A95E94A222B164E0011ED4B /* cork_city_gaol_1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 5A95E93D222B164D0011ED4B /* cork_city_gaol_1.jpg */; };
+		5A95E94B222B164E0011ED4B /* bantry_house_3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 5A95E93E222B164D0011ED4B /* bantry_house_3.jpg */; };
+		5A95E94C222B164E0011ED4B /* bantry_house_2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 5A95E93F222B164D0011ED4B /* bantry_house_2.jpg */; };
+		5A95E94D222B164E0011ED4B /* baltimore_background.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 5A95E940222B164D0011ED4B /* baltimore_background.jpg */; };
+		5A95E94E222B164E0011ED4B /* bantry_house_1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 5A95E941222B164D0011ED4B /* bantry_house_1.jpg */; };
+		5A95E94F222B164E0011ED4B /* cork_city_gaol_2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 5A95E942222B164D0011ED4B /* cork_city_gaol_2.jpg */; };
+		5A95E950222B164E0011ED4B /* bantry_house_background.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 5A95E943222B164E0011ED4B /* bantry_house_background.jpg */; };
+		5A95E951222B164E0011ED4B /* blarney_castle_3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 5A95E944222B164E0011ED4B /* blarney_castle_3.jpg */; };
+		5A95E952222B164E0011ED4B /* blarney_castle_2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 5A95E945222B164E0011ED4B /* blarney_castle_2.jpg */; };
+		5A95E953222B164E0011ED4B /* baltimore_2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 5A95E946222B164E0011ED4B /* baltimore_2.jpg */; };
+		5A95E95E222B172C0011ED4B /* elizabeth_fort_2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 5A95E954222B172B0011ED4B /* elizabeth_fort_2.jpg */; };
+		5A95E95F222B172C0011ED4B /* cork_city_gaol_background.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 5A95E955222B172B0011ED4B /* cork_city_gaol_background.jpg */; };
+		5A95E960222B172C0011ED4B /* crawford_art_gallery_background.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 5A95E956222B172B0011ED4B /* crawford_art_gallery_background.jpg */; };
+		5A95E961222B172C0011ED4B /* crawford_art_gallery_3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 5A95E957222B172C0011ED4B /* crawford_art_gallery_3.jpg */; };
+		5A95E962222B172C0011ED4B /* cork_city_gaol_3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 5A95E958222B172C0011ED4B /* cork_city_gaol_3.jpg */; };
+		5A95E963222B172C0011ED4B /* crawford_art_gallery_2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 5A95E959222B172C0011ED4B /* crawford_art_gallery_2.jpg */; };
+		5A95E964222B172C0011ED4B /* crawford_art_gallery_1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 5A95E95A222B172C0011ED4B /* crawford_art_gallery_1.jpg */; };
+		5A95E965222B172C0011ED4B /* elizabeth_fort_1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 5A95E95B222B172C0011ED4B /* elizabeth_fort_1.jpg */; };
+		5A95E966222B172C0011ED4B /* elizabeth_fort_3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 5A95E95C222B172C0011ED4B /* elizabeth_fort_3.jpg */; };
+		5A95E967222B172C0011ED4B /* elizabeth_fort_background.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 5A95E95D222B172C0011ED4B /* elizabeth_fort_background.jpg */; };
+		5A95E97B222B17610011ED4B /* splashscreen_image.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 5A95E968222B175F0011ED4B /* splashscreen_image.jpg */; };
+		5A95E97C222B17610011ED4B /* kinsale_2_.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 5A95E969222B175F0011ED4B /* kinsale_2_.jpg */; };
+		5A95E97D222B17610011ED4B /* gougane_barra_1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 5A95E96A222B175F0011ED4B /* gougane_barra_1.jpg */; };
+		5A95E97E222B17610011ED4B /* gougane_barra_2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 5A95E96B222B175F0011ED4B /* gougane_barra_2.jpg */; };
+		5A95E97F222B17610011ED4B /* kinsale_1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 5A95E96C222B175F0011ED4B /* kinsale_1.jpg */; };
+		5A95E980222B17610011ED4B /* ic_launcher.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 5A95E96D222B175F0011ED4B /* ic_launcher.jpg */; };
+		5A95E981222B17610011ED4B /* garnish_island_2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 5A95E96E222B175F0011ED4B /* garnish_island_2.jpg */; };
+		5A95E982222B17610011ED4B /* garnish_island_1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 5A95E96F222B17600011ED4B /* garnish_island_1.jpg */; };
+		5A95E983222B17610011ED4B /* garnish_island_3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 5A95E970222B17600011ED4B /* garnish_island_3.jpg */; };
+		5A95E984222B17610011ED4B /* garnish_island_background.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 5A95E971222B17600011ED4B /* garnish_island_background.jpg */; };
+		5A95E985222B17610011ED4B /* kinsale_background.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 5A95E972222B17600011ED4B /* kinsale_background.jpg */; };
+		5A95E986222B17610011ED4B /* mizen_head_background.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 5A95E973222B17600011ED4B /* mizen_head_background.jpg */; };
+		5A95E987222B17610011ED4B /* mizen_head_3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 5A95E974222B17600011ED4B /* mizen_head_3.jpg */; };
+		5A95E988222B17610011ED4B /* gougane_barra_3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 5A95E975222B17600011ED4B /* gougane_barra_3.jpg */; };
+		5A95E989222B17610011ED4B /* kinsale_2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 5A95E976222B17610011ED4B /* kinsale_2.jpg */; };
+		5A95E98A222B17610011ED4B /* gougane_barra_background.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 5A95E977222B17610011ED4B /* gougane_barra_background.jpg */; };
+		5A95E98B222B17610011ED4B /* mizen_head_2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 5A95E978222B17610011ED4B /* mizen_head_2.jpg */; };
+		5A95E98C222B17610011ED4B /* kinsale_3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 5A95E979222B17610011ED4B /* kinsale_3.jpg */; };
+		5A95E98D222B17610011ED4B /* mizen_head_1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 5A95E97A222B17610011ED4B /* mizen_head_1.jpg */; };
+		5AAE8EBC22554804003EB9D6 /* Model.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 5AAE8EBA22554804003EB9D6 /* Model.xcdatamodeld */; };
+		5ABB0241222B54D70065BF2A /* PlaceTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5ABB0240222B54D70065BF2A /* PlaceTableViewCell.swift */; };
+		5ABB0247222C51080065BF2A /* SlideView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5ABB0246222C51080065BF2A /* SlideView.xib */; };
+		5ABB0249222C51E40065BF2A /* ImageSlideView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5ABB0248222C51E40065BF2A /* ImageSlideView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		30B258E8221C0B6700B40CD5 /* Cork Tourist Spots.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Cork Tourist Spots.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		30B258EB221C0B6700B40CD5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		30B258ED221C0B6700B40CD5 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		30B258F0221C0B6700B40CD5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		30B258F2221C0B6900B40CD5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		30B258F5221C0B6900B40CD5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		30B258F7221C0B6900B40CD5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		30B258FD221C0BC000B40CD5 /* places.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = places.xml; sourceTree = "<group>"; };
+		30D5F4B9221EAFED00B01155 /* PlacesTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlacesTableViewController.swift; sourceTree = "<group>"; };
+		30D5F4BB221EB03100B01155 /* PlaceImagesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlaceImagesViewController.swift; sourceTree = "<group>"; };
+		30D5F4BD221EB04A00B01155 /* PlaceDetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlaceDetailsViewController.swift; sourceTree = "<group>"; };
+		30D5F4BF221EB06700B01155 /* WebViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebViewController.swift; sourceTree = "<group>"; };
+		30D5F4C1221EB41500B01155 /* Place.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Place.swift; sourceTree = "<group>"; };
+		30D5F4C3221EB45100B01155 /* TouristPlaces.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TouristPlaces.swift; sourceTree = "<group>"; };
+		30D5F4C5221EB66C00B01155 /* XMLPlacesParser.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XMLPlacesParser.swift; sourceTree = "<group>"; };
+		5A19275222583C66006072BD /* AddEditViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddEditViewController.swift; sourceTree = "<group>"; };
+		5A19275A225970E4006072BD /* PlaceTableViewCellDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlaceTableViewCellDelegate.swift; sourceTree = "<group>"; };
+		5A268DDD2235A1020088CCBE /* texture.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = texture.jpeg; sourceTree = "<group>"; };
+		5A334EC6225A8734005DE3A0 /* edit_white.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = edit_white.png; sourceTree = "<group>"; };
+		5A334ED8225A9EFE005DE3A0 /* trash_ic_edited.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = trash_ic_edited.jpg; sourceTree = "<group>"; };
+		5A334EE0225B47C6005DE3A0 /* place_holder.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = place_holder.png; sourceTree = "<group>"; };
+		5A334EE2225B48F5005DE3A0 /* background_placeholder.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = background_placeholder.png; sourceTree = "<group>"; };
+		5A334EE4225B54C6005DE3A0 /* SearchFooter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchFooter.swift; sourceTree = "<group>"; };
+		5A95E938222B162C0011ED4B /* baltimore_1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = baltimore_1.jpg; sourceTree = "<group>"; };
+		5A95E93A222B164C0011ED4B /* baltimore_3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = baltimore_3.jpg; sourceTree = "<group>"; };
+		5A95E93B222B164C0011ED4B /* blarney_castle_1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = blarney_castle_1.jpg; sourceTree = "<group>"; };
+		5A95E93C222B164D0011ED4B /* blarney_castle_background.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = blarney_castle_background.jpg; sourceTree = "<group>"; };
+		5A95E93D222B164D0011ED4B /* cork_city_gaol_1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = cork_city_gaol_1.jpg; sourceTree = "<group>"; };
+		5A95E93E222B164D0011ED4B /* bantry_house_3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = bantry_house_3.jpg; sourceTree = "<group>"; };
+		5A95E93F222B164D0011ED4B /* bantry_house_2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = bantry_house_2.jpg; sourceTree = "<group>"; };
+		5A95E940222B164D0011ED4B /* baltimore_background.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = baltimore_background.jpg; sourceTree = "<group>"; };
+		5A95E941222B164D0011ED4B /* bantry_house_1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = bantry_house_1.jpg; sourceTree = "<group>"; };
+		5A95E942222B164D0011ED4B /* cork_city_gaol_2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = cork_city_gaol_2.jpg; sourceTree = "<group>"; };
+		5A95E943222B164E0011ED4B /* bantry_house_background.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = bantry_house_background.jpg; sourceTree = "<group>"; };
+		5A95E944222B164E0011ED4B /* blarney_castle_3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = blarney_castle_3.jpg; sourceTree = "<group>"; };
+		5A95E945222B164E0011ED4B /* blarney_castle_2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = blarney_castle_2.jpg; sourceTree = "<group>"; };
+		5A95E946222B164E0011ED4B /* baltimore_2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = baltimore_2.jpg; sourceTree = "<group>"; };
+		5A95E954222B172B0011ED4B /* elizabeth_fort_2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = elizabeth_fort_2.jpg; sourceTree = "<group>"; };
+		5A95E955222B172B0011ED4B /* cork_city_gaol_background.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = cork_city_gaol_background.jpg; sourceTree = "<group>"; };
+		5A95E956222B172B0011ED4B /* crawford_art_gallery_background.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = crawford_art_gallery_background.jpg; sourceTree = "<group>"; };
+		5A95E957222B172C0011ED4B /* crawford_art_gallery_3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = crawford_art_gallery_3.jpg; sourceTree = "<group>"; };
+		5A95E958222B172C0011ED4B /* cork_city_gaol_3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = cork_city_gaol_3.jpg; sourceTree = "<group>"; };
+		5A95E959222B172C0011ED4B /* crawford_art_gallery_2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = crawford_art_gallery_2.jpg; sourceTree = "<group>"; };
+		5A95E95A222B172C0011ED4B /* crawford_art_gallery_1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = crawford_art_gallery_1.jpg; sourceTree = "<group>"; };
+		5A95E95B222B172C0011ED4B /* elizabeth_fort_1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = elizabeth_fort_1.jpg; sourceTree = "<group>"; };
+		5A95E95C222B172C0011ED4B /* elizabeth_fort_3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = elizabeth_fort_3.jpg; sourceTree = "<group>"; };
+		5A95E95D222B172C0011ED4B /* elizabeth_fort_background.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = elizabeth_fort_background.jpg; sourceTree = "<group>"; };
+		5A95E968222B175F0011ED4B /* splashscreen_image.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = splashscreen_image.jpg; sourceTree = "<group>"; };
+		5A95E969222B175F0011ED4B /* kinsale_2_.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = kinsale_2_.jpg; sourceTree = "<group>"; };
+		5A95E96A222B175F0011ED4B /* gougane_barra_1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = gougane_barra_1.jpg; sourceTree = "<group>"; };
+		5A95E96B222B175F0011ED4B /* gougane_barra_2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = gougane_barra_2.jpg; sourceTree = "<group>"; };
+		5A95E96C222B175F0011ED4B /* kinsale_1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = kinsale_1.jpg; sourceTree = "<group>"; };
+		5A95E96D222B175F0011ED4B /* ic_launcher.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = ic_launcher.jpg; sourceTree = "<group>"; };
+		5A95E96E222B175F0011ED4B /* garnish_island_2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = garnish_island_2.jpg; sourceTree = "<group>"; };
+		5A95E96F222B17600011ED4B /* garnish_island_1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = garnish_island_1.jpg; sourceTree = "<group>"; };
+		5A95E970222B17600011ED4B /* garnish_island_3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = garnish_island_3.jpg; sourceTree = "<group>"; };
+		5A95E971222B17600011ED4B /* garnish_island_background.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = garnish_island_background.jpg; sourceTree = "<group>"; };
+		5A95E972222B17600011ED4B /* kinsale_background.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = kinsale_background.jpg; sourceTree = "<group>"; };
+		5A95E973222B17600011ED4B /* mizen_head_background.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = mizen_head_background.jpg; sourceTree = "<group>"; };
+		5A95E974222B17600011ED4B /* mizen_head_3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = mizen_head_3.jpg; sourceTree = "<group>"; };
+		5A95E975222B17600011ED4B /* gougane_barra_3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = gougane_barra_3.jpg; sourceTree = "<group>"; };
+		5A95E976222B17610011ED4B /* kinsale_2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = kinsale_2.jpg; sourceTree = "<group>"; };
+		5A95E977222B17610011ED4B /* gougane_barra_background.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = gougane_barra_background.jpg; sourceTree = "<group>"; };
+		5A95E978222B17610011ED4B /* mizen_head_2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = mizen_head_2.jpg; sourceTree = "<group>"; };
+		5A95E979222B17610011ED4B /* kinsale_3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = kinsale_3.jpg; sourceTree = "<group>"; };
+		5A95E97A222B17610011ED4B /* mizen_head_1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = mizen_head_1.jpg; sourceTree = "<group>"; };
+		5AAE8EBB22554804003EB9D6 /* Model.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Model.xcdatamodel; sourceTree = "<group>"; };
+		5ABB0240222B54D70065BF2A /* PlaceTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlaceTableViewCell.swift; sourceTree = "<group>"; };
+		5ABB0246222C51080065BF2A /* SlideView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SlideView.xib; sourceTree = "<group>"; };
+		5ABB0248222C51E40065BF2A /* ImageSlideView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageSlideView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,12 +178,74 @@
 		30B258EA221C0B6700B40CD5 /* Cork Tourist Spots */ = {
 			isa = PBXGroup;
 			children = (
+				5ABB0248222C51E40065BF2A /* ImageSlideView.swift */,
+				5ABB0246222C51080065BF2A /* SlideView.xib */,
+				30B258FD221C0BC000B40CD5 /* places.xml */,
+				5ABB0240222B54D70065BF2A /* PlaceTableViewCell.swift */,
 				30B258EB221C0B6700B40CD5 /* AppDelegate.swift */,
-				30B258ED221C0B6700B40CD5 /* ViewController.swift */,
 				30B258EF221C0B6700B40CD5 /* Main.storyboard */,
+				5A19275222583C66006072BD /* AddEditViewController.swift */,
+				30D5F4BB221EB03100B01155 /* PlaceImagesViewController.swift */,
+				30D5F4BD221EB04A00B01155 /* PlaceDetailsViewController.swift */,
+				30D5F4BF221EB06700B01155 /* WebViewController.swift */,
+				5AAE8EBA22554804003EB9D6 /* Model.xcdatamodeld */,
+				30D5F4B9221EAFED00B01155 /* PlacesTableViewController.swift */,
+				5A334EE4225B54C6005DE3A0 /* SearchFooter.swift */,
+				30D5F4C1221EB41500B01155 /* Place.swift */,
+				30D5F4C3221EB45100B01155 /* TouristPlaces.swift */,
+				30D5F4C5221EB66C00B01155 /* XMLPlacesParser.swift */,
+				5A334EE2225B48F5005DE3A0 /* background_placeholder.png */,
+				5A334EE0225B47C6005DE3A0 /* place_holder.png */,
+				5A334EC6225A8734005DE3A0 /* edit_white.png */,
+				5A334ED8225A9EFE005DE3A0 /* trash_ic_edited.jpg */,
+				5A268DDD2235A1020088CCBE /* texture.jpeg */,
+				5A95E946222B164E0011ED4B /* baltimore_2.jpg */,
+				5A95E93A222B164C0011ED4B /* baltimore_3.jpg */,
+				5A95E940222B164D0011ED4B /* baltimore_background.jpg */,
+				5A95E941222B164D0011ED4B /* bantry_house_1.jpg */,
+				5A95E93F222B164D0011ED4B /* bantry_house_2.jpg */,
+				5A95E93E222B164D0011ED4B /* bantry_house_3.jpg */,
+				5A95E943222B164E0011ED4B /* bantry_house_background.jpg */,
+				5A95E93B222B164C0011ED4B /* blarney_castle_1.jpg */,
+				5A95E945222B164E0011ED4B /* blarney_castle_2.jpg */,
+				5A95E944222B164E0011ED4B /* blarney_castle_3.jpg */,
+				5A95E93C222B164D0011ED4B /* blarney_castle_background.jpg */,
+				5A95E93D222B164D0011ED4B /* cork_city_gaol_1.jpg */,
+				5A95E942222B164D0011ED4B /* cork_city_gaol_2.jpg */,
+				5A95E938222B162C0011ED4B /* baltimore_1.jpg */,
+				5A95E958222B172C0011ED4B /* cork_city_gaol_3.jpg */,
+				5A95E955222B172B0011ED4B /* cork_city_gaol_background.jpg */,
+				5A95E95A222B172C0011ED4B /* crawford_art_gallery_1.jpg */,
+				5A95E959222B172C0011ED4B /* crawford_art_gallery_2.jpg */,
+				5A95E957222B172C0011ED4B /* crawford_art_gallery_3.jpg */,
+				5A95E956222B172B0011ED4B /* crawford_art_gallery_background.jpg */,
+				5A95E95B222B172C0011ED4B /* elizabeth_fort_1.jpg */,
+				5A95E954222B172B0011ED4B /* elizabeth_fort_2.jpg */,
+				5A95E95C222B172C0011ED4B /* elizabeth_fort_3.jpg */,
+				5A95E95D222B172C0011ED4B /* elizabeth_fort_background.jpg */,
+				5A95E96F222B17600011ED4B /* garnish_island_1.jpg */,
+				5A95E96E222B175F0011ED4B /* garnish_island_2.jpg */,
+				5A95E970222B17600011ED4B /* garnish_island_3.jpg */,
+				5A95E971222B17600011ED4B /* garnish_island_background.jpg */,
+				5A95E96A222B175F0011ED4B /* gougane_barra_1.jpg */,
+				5A95E96B222B175F0011ED4B /* gougane_barra_2.jpg */,
+				5A95E975222B17600011ED4B /* gougane_barra_3.jpg */,
+				5A95E977222B17610011ED4B /* gougane_barra_background.jpg */,
+				5A95E96D222B175F0011ED4B /* ic_launcher.jpg */,
+				5A95E96C222B175F0011ED4B /* kinsale_1.jpg */,
+				5A95E969222B175F0011ED4B /* kinsale_2_.jpg */,
+				5A95E976222B17610011ED4B /* kinsale_2.jpg */,
+				5A95E979222B17610011ED4B /* kinsale_3.jpg */,
+				5A95E972222B17600011ED4B /* kinsale_background.jpg */,
+				5A95E97A222B17610011ED4B /* mizen_head_1.jpg */,
+				5A95E978222B17610011ED4B /* mizen_head_2.jpg */,
+				5A95E974222B17600011ED4B /* mizen_head_3.jpg */,
+				5A95E973222B17600011ED4B /* mizen_head_background.jpg */,
 				30B258F2221C0B6900B40CD5 /* Assets.xcassets */,
+				5A95E968222B175F0011ED4B /* splashscreen_image.jpg */,
 				30B258F4221C0B6900B40CD5 /* LaunchScreen.storyboard */,
 				30B258F7221C0B6900B40CD5 /* Info.plist */,
+				5A19275A225970E4006072BD /* PlaceTableViewCellDelegate.swift */,
 			);
 			path = "Cork Tourist Spots";
 			sourceTree = "<group>";
@@ -122,9 +308,59 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5A95E97E222B17610011ED4B /* gougane_barra_2.jpg in Resources */,
+				5A95E98C222B17610011ED4B /* kinsale_3.jpg in Resources */,
+				5A95E95F222B172C0011ED4B /* cork_city_gaol_background.jpg in Resources */,
+				5A95E952222B164E0011ED4B /* blarney_castle_2.jpg in Resources */,
+				5A95E960222B172C0011ED4B /* crawford_art_gallery_background.jpg in Resources */,
 				30B258F6221C0B6900B40CD5 /* LaunchScreen.storyboard in Resources */,
+				5A95E988222B17610011ED4B /* gougane_barra_3.jpg in Resources */,
+				5A95E97F222B17610011ED4B /* kinsale_1.jpg in Resources */,
+				5A95E98A222B17610011ED4B /* gougane_barra_background.jpg in Resources */,
+				5A334EE1225B47C7005DE3A0 /* place_holder.png in Resources */,
+				5A95E953222B164E0011ED4B /* baltimore_2.jpg in Resources */,
+				5A95E939222B162C0011ED4B /* baltimore_1.jpg in Resources */,
+				5A334EC7225A8734005DE3A0 /* edit_white.png in Resources */,
+				5A95E985222B17610011ED4B /* kinsale_background.jpg in Resources */,
+				5A95E987222B17610011ED4B /* mizen_head_3.jpg in Resources */,
+				5A95E95E222B172C0011ED4B /* elizabeth_fort_2.jpg in Resources */,
+				5A334EE3225B48F5005DE3A0 /* background_placeholder.png in Resources */,
+				5A95E950222B164E0011ED4B /* bantry_house_background.jpg in Resources */,
+				5A268DDE2235A1020088CCBE /* texture.jpeg in Resources */,
+				5A95E94A222B164E0011ED4B /* cork_city_gaol_1.jpg in Resources */,
+				5A95E967222B172C0011ED4B /* elizabeth_fort_background.jpg in Resources */,
+				5A95E97B222B17610011ED4B /* splashscreen_image.jpg in Resources */,
+				5A95E948222B164E0011ED4B /* blarney_castle_1.jpg in Resources */,
+				5A95E94E222B164E0011ED4B /* bantry_house_1.jpg in Resources */,
+				5A95E980222B17610011ED4B /* ic_launcher.jpg in Resources */,
+				5A95E965222B172C0011ED4B /* elizabeth_fort_1.jpg in Resources */,
+				5A95E94F222B164E0011ED4B /* cork_city_gaol_2.jpg in Resources */,
+				5A95E961222B172C0011ED4B /* crawford_art_gallery_3.jpg in Resources */,
+				5A95E97C222B17610011ED4B /* kinsale_2_.jpg in Resources */,
+				5A95E94C222B164E0011ED4B /* bantry_house_2.jpg in Resources */,
+				5A95E94D222B164E0011ED4B /* baltimore_background.jpg in Resources */,
+				5A95E963222B172C0011ED4B /* crawford_art_gallery_2.jpg in Resources */,
+				5A95E989222B17610011ED4B /* kinsale_2.jpg in Resources */,
+				5A95E98B222B17610011ED4B /* mizen_head_2.jpg in Resources */,
+				5A95E97D222B17610011ED4B /* gougane_barra_1.jpg in Resources */,
+				5A95E962222B172C0011ED4B /* cork_city_gaol_3.jpg in Resources */,
+				5A95E982222B17610011ED4B /* garnish_island_1.jpg in Resources */,
+				5A95E986222B17610011ED4B /* mizen_head_background.jpg in Resources */,
+				5A95E964222B172C0011ED4B /* crawford_art_gallery_1.jpg in Resources */,
+				5A334ED9225A9EFE005DE3A0 /* trash_ic_edited.jpg in Resources */,
+				5A95E949222B164E0011ED4B /* blarney_castle_background.jpg in Resources */,
+				30B258FE221C0BC000B40CD5 /* places.xml in Resources */,
+				5A95E94B222B164E0011ED4B /* bantry_house_3.jpg in Resources */,
+				5A95E966222B172C0011ED4B /* elizabeth_fort_3.jpg in Resources */,
+				5A95E98D222B17610011ED4B /* mizen_head_1.jpg in Resources */,
+				5A95E984222B17610011ED4B /* garnish_island_background.jpg in Resources */,
 				30B258F3221C0B6900B40CD5 /* Assets.xcassets in Resources */,
+				5ABB0247222C51080065BF2A /* SlideView.xib in Resources */,
+				5A95E981222B17610011ED4B /* garnish_island_2.jpg in Resources */,
+				5A95E983222B17610011ED4B /* garnish_island_3.jpg in Resources */,
+				5A95E951222B164E0011ED4B /* blarney_castle_3.jpg in Resources */,
 				30B258F1221C0B6700B40CD5 /* Main.storyboard in Resources */,
+				5A95E947222B164E0011ED4B /* baltimore_3.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -135,8 +371,20 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				30B258EE221C0B6700B40CD5 /* ViewController.swift in Sources */,
+				30D5F4BC221EB03100B01155 /* PlaceImagesViewController.swift in Sources */,
+				5A19275B225970E4006072BD /* PlaceTableViewCellDelegate.swift in Sources */,
+				30D5F4C0221EB06700B01155 /* WebViewController.swift in Sources */,
+				5ABB0241222B54D70065BF2A /* PlaceTableViewCell.swift in Sources */,
+				30D5F4C4221EB45100B01155 /* TouristPlaces.swift in Sources */,
+				30D5F4BE221EB04A00B01155 /* PlaceDetailsViewController.swift in Sources */,
+				5A334EE5225B54C6005DE3A0 /* SearchFooter.swift in Sources */,
+				30D5F4C2221EB41500B01155 /* Place.swift in Sources */,
 				30B258EC221C0B6700B40CD5 /* AppDelegate.swift in Sources */,
+				30D5F4C6221EB66C00B01155 /* XMLPlacesParser.swift in Sources */,
+				5A19275322583C67006072BD /* AddEditViewController.swift in Sources */,
+				5ABB0249222C51E40065BF2A /* ImageSlideView.swift in Sources */,
+				5AAE8EBC22554804003EB9D6 /* Model.xcdatamodeld in Sources */,
+				30D5F4BA221EAFED00B01155 /* PlacesTableViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -334,6 +582,19 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		5AAE8EBA22554804003EB9D6 /* Model.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				5AAE8EBB22554804003EB9D6 /* Model.xcdatamodel */,
+			);
+			currentVersion = 5AAE8EBB22554804003EB9D6 /* Model.xcdatamodel */;
+			path = Model.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = 30B258E0221C0B6700B40CD5 /* Project object */;
 }
